@@ -33,8 +33,8 @@ window.onload = function() {
 
     pwdValidation.innerHTML = validationResults.join("");
 
-    // children = document.querySelectorAll('.parent .child1');
     var invalidElements = document.querySelectorAll('#pwd-validation .invalid');
+
     return invalidElements.length == 0;
   }
 
